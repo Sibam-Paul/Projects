@@ -1,0 +1,13 @@
+.header-container{
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.header{
+    height: 70px;
+    width: 90%;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
