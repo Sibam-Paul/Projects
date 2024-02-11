@@ -1,0 +1,96 @@
+.navbar{
+    height:80px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFC017;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav-logo{
+    width: 150px;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(https://freelogopng.com/images/all_img/1679302694Medium-Logo-PNG.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 10% 0; */
+}
+.nav-links{
+    border: 1px solid orange;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-items{
+    /* border: 1px solid black; */
+    height: 20px;
+    text-decoration: none;
+    font-size: 20px;/*To bil kul fit ho jaye ga.... as height is same*/
+}
+.nav-items:link{
+    color: black;
+}
+
+.nav-items:visited{
+    color: black;
+}
+
+.get-started{
+    /*By default items stretch*/
+    height: 30px;
+    width: 90px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    position: relative;
+}
+.nav-items:hover{
+    cursor: pointer;
+}
+.nav-image{
+    height: 40%;
+    width: 80%;
+    /* border: 1px solid black; */
+    background-image: url(https://freelogopng.com/images/all_img/1679302694Medium-Logo-PNG.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 20% 0;
+}
+
+.circle-1,
+.circle-2{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    top: 0;
+    
+}
+
+.circle-1{
+    left: -15px;
+    
+}
+.circle-2{
+    right: -15px;
+    
+}
+
+.get-started span{
+    z-index: 1;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 100%; /*width apne parent ki 100% lele*/
+}

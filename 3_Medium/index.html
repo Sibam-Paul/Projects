@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium Clone FrontEnd</title>
+    <!-- INCLUDING NAV CSS -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 1200px;
+            margin: auto;
+            height: 500px;
+            /* border: 1px s olid black; */
+            margin-top: 90px;
+            font-family: sans-serif;
+        }
+        .yellow-container{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 550px;
+            border: 1px solid black;
+            width: 100%;
+            background-color: #FFC017;
+            z-index: -1;
+        }
+        .seperation-line{
+            margin-top: 50px ;
+            width: 100vw; /*This will work with respect to viewport*/
+            position: relative; /*yey apna original position se move nahi karti*/
+            right: 89px;    /*WIDTH TO PURA view port ley liya tha magar right se thra space lelo */
+            border-bottom: 1px solid #CCC;
+            
+        }
+    </style>
+
+    <!-- caroursel CSS -->
+    <link rel="stylesheet" href="css/carousel.css">
+
+    <!-- trending-artcles -->
+    <link rel="stylesheet" href="css/trending-articles.css">
+    <!-- Main-article----- -->
+    <link rel="stylesheet" href="css/main-article.css">
+</head>
+<body>
+    <!-- NAVBAR STARTS -->
+    <nav class="navbar"> 
+        <div class="nav-logo">
+            <div class="nav-image"></div>
+        </div>
+        <div class="nav-links">
+            <a class="nav-items" href="#">Our Story</a>
+            <a class="nav-items" href="#">Membership</a>
+            <a class="nav-items" href="#">Write</a>
+            <a class="nav-items" href="#">Sign in</a>
+            <button class="get-started">
+                <span>Get Started</span>
+                <div class="circle-1"></div>
+                <div class="circle-2"></div>
+            </button>
+        </div>
+    </nav>
+    <!-- NAVBAR ENDS -->
+
+
+
+
+
+    <!-- YELLOW BOX CONTAINER STARTS -->
+    <div class="yellow-container">
+
+    </div>
+    <!-- YELLOW BOX CONTAINER ENDS -->
+
+
+
+
+
+
+
+<!-- CONATINER STARTS------------------------------------------------------------------------------------------------------------------------------ -->
+    <div class="container">
+
+
+
+
+
+
+
+
+
+        <!-- CAROUSEL STARTS-------------------------------------------------------------------------------------------------------------- -->
+        <div class="caroursel">
+            <h1 class="caroursel-heading">Stay curious</h1>
+            <div class="caroursel-text">Discover stories, thinking, and expertise from writers on any topic.</div>
+            <button class="caroursel-button">Start reading</button>
+        </div>
+        <!-- CAROUSEL STARTS-------------------------------------------------------------------------------------------------------------- -->
+
+
+        <!-- TRENDING ARTICLE STARTS------------------------------------------------------------------------------------------------------------ -->
+        <div class="trending-articles">
+            <div class="trending-heading">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_g-_UFU5M6mh9DbuCY6sjSaUNagWlglyWU2iaxfwgNBdI4nuPI520FZfLKYO6P3ey4hk&usqp=CAU"> <div class="trending-heading-text">Trending on Medium</div>
+            </div>
+            <div class="articles-list">
+                
+                <div class="article articles-1">
+                    <div class="article-no">01</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img 
+                            src="https://miro.medium.com/v2/resize:fill:20:20/1*CJe3891yB1A1mzMdqemkdg.jpeg"> 
+                            <div class="article-author-detail">
+                            <span> Matthew Harris</span> in 
+                            <span class="author">
+                                Towards Data Science
+                                <div class="about-author">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, vitae.
+                                </div>
+                            </span>
+                            </div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's what Happened?
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article articles-2">
+                    <div class="article-no">02</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img 
+                            src="https://miro.medium.com/v2/resize:fill:20:20/1*yomMFpHFpRVpb01z4KIhBQ.png"> 
+                            <div class="article-author-detail">
+                            <span> Matthew Harris</span> in <span>Towards Data Science</span>
+                            </div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's what Happened? adding more text here
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article articles-3">
+                    <div class="article-no">03</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img 
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_g-_UFU5M6mh9DbuCY6sjSaUNagWlglyWU2iaxfwgNBdI4nuPI520FZfLKYO6P3ey4hk&usqp=CAU"> 
+                            <div class="article-author-detail">
+                            <span> Matthew Harris</span> in <span>Towards Data Science</span>
+                            </div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's what Happened?
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article articles-4">
+                    <div class="article-no">04</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img 
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_g-_UFU5M6mh9DbuCY6sjSaUNagWlglyWU2iaxfwgNBdI4nuPI520FZfLKYO6P3ey4hk&usqp=CAU"> 
+                            <div class="article-author-detail">
+                            <span> Matthew Harris</span> in <span>Towards Data Science</span>
+                            </div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's what Happened?
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article articles-5">
+                    <div class="article-no">05</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img 
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_g-_UFU5M6mh9DbuCY6sjSaUNagWlglyWU2iaxfwgNBdI4nuPI520FZfLKYO6P3ey4hk&usqp=CAU"> 
+                            <div class="article-author-detail">
+                            <span> Matthew Harris</span> in <span>Towards Data Science</span>
+                            </div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's what Happened?
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article articles-6">
+                    <div class="article-no">06</div>
+                    <div class="article-detail">
+                        <div class="article-detail-1">
+                            <img 
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_g-_UFU5M6mh9DbuCY6sjSaUNagWlglyWU2iaxfwgNBdI4nuPI520FZfLKYO6P3ey4hk&usqp=CAU"> 
+                            <div class="article-author-detail">
+                            <span> Matthew Harris</span> in <span>Towards Data Science</span>
+                            </div>
+                        </div>
+                        <div class="article-detail-2">
+                            I Quit Murdering People for 7 days. Here's what Happened?
+                        </div>
+                        <div class="article-detail-3">
+                            <span class="article-date">Jan 16&nbsp;&sdot;&nbsp;</span>
+                            <span class="article-read-time">3 min</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TRENDING ARTICLE ENDS------------------------------------------------------------------------------------------------------------ -->
+
+
+        <div class="seperation-line">
+
+        </div>
+       <!-- <hr> horizontal rule -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- STARTING MAIN ARTICLES HERE-->
+
+
+        <div class="main-articles">
+            <div class="article-container">
+
+
+                <!-- Article-text-img-container------------------------------------------------------------------------------ -->
+                <div class="article-text-pic-container">
+
+                    <div class="article-text">
+                        <div class="top-header">
+                            <img src="https://miro.medium.com/v2/resize:fill:79:79/0*1twDqphdXhuLtvJX.jpg" class="img"></img>
+                            <span class="img-side-text">Dare Obasanjo
+                                <div class="hidden-text">
+                                    <img src="https://miro.medium.com/v2/resize:fill:79:79/0*1twDqphdXhuLtvJX.jpg" class="img"></img>
+                                    <span class="img-side-text">Dare Obasanjo</span>
+                                    <div class="text-bio">"Everything you touch you change. Everything you change, changes you" - Octavia Butler, Parable of the Sower</div>
+                                    <hr>
+
+                                </div>
+                            </span>
+                        </div>
+                        <div class="bold-text-header">
+                            <strong>5 Things I Learned About Leadership from the <br> Death & Rebirth of Microsoft</strong>
+                        </div>
+                        <div class="text-article"> <!--DOUBT-->
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet  <br>expedita dicta exercitationem ducimus. Animi suscipit beatae iure corrupti error obcaecati perspiciatis doloremque, ipsa natus repellat pariatur, earum praesentium distinctio recusandae illum eveniet mollitia rem laudantium asperiores, doloribus et. Obcaecati architecto in tempora magni nihil fugit ea unde deserunt sunt distinctio, nulla rerum, voluptas, quod ut iusto laborum sed possimus voluptatibus cupiditate! Culpa, officia esse consectetur, cum sapiente laudantium fuga non sed accusamus ex ipsum placeat, dolores quidem? Recusandae odit qui deserunt repudiandae libero nobis odio rem quaerat inventore beatae impedit molestiae corrupti, unde magnam quae consectetur blanditiis nam ab velit.
+                        </div>
+                        <div class="notify">
+                            Feb 4&nbsp;&sdot;&nbsp;8 min read&nbsp;&sdot;&nbsp;
+                            <span>Microsoft</span>
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/free-save-3244517-2701888.png?f=webp" class="save-icon"></img>
+                        </div>
+
+
+
+                    
+                    </div>
+
+
+
+
+                    <div class="article-text-img"></div>
+                
+                </div>
+                <!-- Article-text-img-container------------------------------------------------------------------------------ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <br>
+                
+                <!-- Article-text-img-container------------------------------------------------------------------------------ -->
+                <div class="article-text-pic-container">
+
+                    <div class="article-text">
+                        <div class="top-header">
+                            <img src="https://miro.medium.com/v2/resize:fill:79:79/0*1twDqphdXhuLtvJX.jpg" class="img"></img>
+                            <span class="img-side-text" style="width: 162px;">
+                                <strong>Allison Wiltz </strong> in <strong>
+                                    Momentum</strong>
+                                <div class="hidden-text">
+                                    <img src="https://miro.medium.com/v2/resize:fill:79:79/0*1twDqphdXhuLtvJX.jpg" class="img"></img>
+                                    <span class="img-side-text">Dare Obasanjo</span>
+                                    <div class="text-bio">"Everything you touch you change. Everything you change, changes you" - Octavia Butler, Parable of the Sower</div>
+                                    <hr>
+
+                                </div>
+                            </span>
+                        </div>
+                        <div class="bold-text-header">
+                            <strong>What Do You Wish More People Knew About Black History?</strong>
+                        </div>
+                        <div class="text-article"> <!--DOUBT-->
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet  <br>expedita dicta exercitationem ducimus. Animi suscipit beatae iure corrupti error obcaecati perspiciatis doloremque, ipsa natus repellat pariatur, earum praesentium distinctio recusandae illum eveniet mollitia rem laudantium asperiores, doloribus et. Obcaecati architecto in tempora magni nihil fugit ea unde deserunt sunt distinctio, nulla rerum, voluptas, quod ut iusto laborum sed possimus voluptatibus cupiditate! Culpa, officia esse consectetur, cum sapiente laudantium fuga non sed accusamus ex ipsum placeat, dolores quidem? Recusandae odit qui deserunt repudiandae libero nobis odio rem quaerat inventore beatae impedit molestiae corrupti, unde magnam quae consectetur blanditiis nam ab velit.
+                        </div>
+                        <div class="notify">
+                            Feb 4&nbsp;&sdot;&nbsp;8 min read&nbsp;&sdot;&nbsp;
+                            <span>Microsoft</span>⭐
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/free-save-3244517-2701888.png?f=webp" class="save-icon"></img>
+                        </div>
+
+
+
+                    
+                    </div>
+
+
+
+
+                    <div class="article-text-img-2"></div>
+
+
+                    
+                
+                </div>
+                <!-- Article-text-img-container------------------------------------------------------------------------------ -->
+           
+
+
+                <br>
+                <!-- Article-text-img-container------------------------------------------------------------------------------ -->
+                <div class="article-text-pic-container">
+
+                    <div class="article-text">
+                        <div class="top-header">
+                            <img src="https://miro.medium.com/v2/resize:fill:79:79/0*1twDqphdXhuLtvJX.jpg" class="img"></img>
+                            <span class="img-side-text" style="width: 162px;">
+                                <strong>Allison Wiltz </strong> in <strong>
+                                    Momentum</strong>
+                                <div class="hidden-text">
+                                    <img src="https://miro.medium.com/v2/resize:fill:79:79/0*1twDqphdXhuLtvJX.jpg" class="img"></img>
+                                    <span class="img-side-text">Dare Obasanjo</span>
+                                    <div class="text-bio">"Everything you touch you change. Everything you change, changes you" - Octavia Butler, Parable of the Sower</div>
+                                    <hr>
+
+                                </div>
+                            </span>
+                        </div>
+                        <div class="bold-text-header">
+                            <strong>What Do You Wish More People Knew About Black History?</strong>
+                        </div>
+                        <div class="text-article"> <!--DOUBT-->
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet  <br>expedita dicta exercitationem ducimus. Animi suscipit beatae iure corrupti error obcaecati perspiciatis doloremque, ipsa natus repellat pariatur, earum praesentium distinctio recusandae illum eveniet mollitia rem laudantium asperiores, doloribus et. Obcaecati architecto in tempora magni nihil fugit ea unde deserunt sunt distinctio, nulla rerum, voluptas, quod ut iusto laborum sed possimus voluptatibus cupiditate! Culpa, officia esse consectetur, cum sapiente laudantium fuga non sed accusamus ex ipsum placeat, dolores quidem? Recusandae odit qui deserunt repudiandae libero nobis odio rem quaerat inventore beatae impedit molestiae corrupti, unde magnam quae consectetur blanditiis nam ab velit.
+                        </div>
+                        <div class="notify">
+                            Feb 4&nbsp;&sdot;&nbsp;8 min read&nbsp;&sdot;&nbsp;
+                            <span>Microsoft</span> 
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/free-save-3244517-2701888.png?f=webp" class="save-icon"></img>
+                        </div>
+
+
+
+                    
+                    </div>
+
+
+
+
+                    
+
+
+                    
+                
+                </div>
+                <!-- Article-text-img-container------------------------------------------------------------------------------ -->
+
+
+
+
+
+                <br>
+
+                <!-- Article-text-img-container------------------------------------------------------------------------------ -->
+                <div class="article-text-pic-container">
+
+                    <div class="article-text">
+                        <div class="top-header">
+                            <img src="https://miro.medium.com/v2/resize:fill:79:79/0*1twDqphdXhuLtvJX.jpg" class="img"></img>
+                            <span class="img-side-text" style="width: 162px;">
+                                <strong>Allison Wiltz </strong> in <strong>
+                                    Momentum</strong>
+                                <div class="hidden-text">
+                                    <img src="https://miro.medium.com/v2/resize:fill:79:79/0*1twDqphdXhuLtvJX.jpg" class="img"></img>
+                                    <span class="img-side-text">Dare Obasanjo</span>
+                                    <div class="text-bio">"Everything you touch you change. Everything you change, changes you" - Octavia Butler, Parable of the Sower</div>
+                                    <hr>
+
+                                </div>
+                            </span>
+                        </div>
+                        <div class="bold-text-header">
+                            <strong>What Do You Wish More People Knew About Black History?</strong>
+                        </div>
+                        <div class="text-article"> <!--DOUBT-->
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet  <br>expedita dicta exercitationem ducimus. Animi suscipit beatae iure corrupti error obcaecati perspiciatis doloremque, ipsa natus repellat pariatur, earum praesentium distinctio recusandae illum eveniet mollitia rem laudantium asperiores, doloribus et. Obcaecati architecto in tempora magni nihil fugit ea unde deserunt sunt distinctio, nulla rerum, voluptas, quod ut iusto laborum sed possimus voluptatibus cupiditate! Culpa, officia esse consectetur, cum sapiente laudantium fuga non sed accusamus ex ipsum placeat, dolores quidem? Recusandae odit qui deserunt repudiandae libero nobis odio rem quaerat inventore beatae impedit molestiae corrupti, unde magnam quae consectetur blanditiis nam ab velit.
+                        </div>
+                        <div class="notify">
+                            Feb 4&nbsp;&sdot;&nbsp;8 min read&nbsp;&sdot;&nbsp;
+                            <span>Microsoft</span>⭐
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/free-save-3244517-2701888.png?f=webp" class="save-icon"></img>
+                        </div>
+
+
+
+                    
+                    </div>
+
+
+
+
+                    <div class="article-text-img-3"></div>
+
+
+                    
+                
+                </div>
+                <!-- Article-text-img-container------------------------------------------------------------------------------ -->
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="article-topics-container">
+                <div class="heading-text" style="font-size: 14px; font-weight: 550;">
+                    Discover more of what matters to you
+                </div>
+                <div class="topics-container">
+                    <div class="topics topic">Programming</div>
+                    <div class="topics topic">Data Science</div>
+                    <div class="topics topic-3">Technology</div>
+                    <div class="topics topic-4">Self Improvement</div>
+                    <div class="topics topic-5">Writing</div>
+                    <div class="topics topic-6">Relationships</div>
+                    <div class="topics topic-7">Machine Learning</div>
+                    <div class="topics topic-8">Productivity</div>
+                    <div class="topics topic-9">Politics</div>
+                </div>
+                <div class="see-more-topics" style="font-size: 13px;">
+                    <a href="https://medium.com/explore-topics" class="see-text">See more topics</a>
+                    
+                </div>
+               
+                <div class="horizontal-line"></div>
+                <br>
+                <div class="footer">
+                    <div class="text">Help</div>
+                    <div class="text text-1">Status</div>
+                    <div class="text text-0">About</div>
+                    <div class="text text-2">Careers</div>
+                    <div class="text text-3">Blog</div>
+                    <div class="text text-4">Privacy</div>
+                    <div class="text text-5">Terms</div>
+                    <div class="text text-6">Text to speech</div>
+                    <div class="text text-7">Teams</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ENDING MAIN ARTICLES HERE-->
+
+
+
+
+
+
+
+
+
+
+    </div>
+<!-- CONATINER ENDS------------------------------------------------------------------------------------------------------------------------------ -->
+
+</body>
+</html>

@@ -1,0 +1,337 @@
+.main-articles{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.article-container{
+    width: 60%;
+    /* border: 1px solid black; */
+    height: 2500px;
+}
+.article-topics-container{
+    width: 30%;
+    /* border: 1px solid black; */
+    height: 300px;
+    position: sticky;
+    top: 90px;
+}
+
+
+.topics-container{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 136px;
+    margin-top: 5px;
+    margin-top: 9px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topic{
+    border: 1px solid black;
+    width: 81px;
+    height: 18px;
+    border-radius: 50px;
+    display: inline;
+    padding: 7px;
+    font-size: 15px;
+    margin: 4px;
+}
+.topic-3{
+    border: 1px solid black;
+    width: 68px;
+    height: 18px;
+    border-radius: 50px;
+    display: inline;
+    padding: 7px;
+    font-size: 15px;
+    margin: 4px;
+}
+.topic-4{
+    border: 1px solid black;
+    width: 109px;
+    height: 18px;
+    border-radius: 50px;
+    display: inline;
+    padding: 7px;
+    font-size: 15px;
+    margin: 4px;
+}
+.topic-5{
+    border: 1px solid black;
+    width: 44px;
+    height: 18px;
+    border-radius: 50px;
+    display: inline;
+    padding: 7px;
+    font-size: 15px;
+    margin: 4px;
+}
+.topic-6{
+    border: 1px solid black;
+    width: 90px;
+    height: 18px;
+    border-radius: 50px;
+    display: inline;
+    padding: 7px;
+    font-size: 15px;
+    margin: 4px;
+}
+.topic-7{
+    border: 1px solid black;
+    width: 126px;
+    height: 18px;
+    border-radius: 50px;
+    display: inline;
+    padding: 7px;
+    font-size: 15px;
+    margin: 4px;
+}
+.topic-8{
+    border: 1px solid black;
+    width: 82px;
+    height: 18px;
+    border-radius: 50px;
+    display: inline;
+    padding: 7px;
+    font-size: 15px;
+    margin: 4px;
+}
+.topic-9{
+    border: 1px solid black;
+    width: 49px;
+    height: 18px;
+    border-radius: 50px;
+    display: inline;
+    padding: 7px;
+    font-size: 15px;
+    margin: 4px;
+}
+.topics{
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    font-size: 13px;
+    text-align: center;
+}
+
+.see-text{
+    font-size: 14px;
+    color: green;
+}
+.see-more-topics{
+    margin-bottom: 25px;
+}
+
+.see-text:link{
+    text-decoration: none;
+}
+.see-text:visited{
+    color: green;
+}
+.see-text:hover{
+    cursor: pointer;
+    color: black;
+}
+.horizontal-line{
+    border: 1px solid #cccccc52;
+    /* position: relative; */
+    width: 105%;
+
+}
+
+.footer{
+    width: 100%;
+    height: 54px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    width: 64px;
+    border: 1px solid black;
+    height: 16px;
+    font-size: 13px;
+}
+.text-1{
+    width: 64px;
+    border: 1px solid black;
+    height: 16px;
+    font-size: 14px;
+}
+.text-0{
+    width: 54px;
+    border: 1px solid black;
+    height: 16px;
+    font-size: 14px;
+}
+.text-2{
+    width: 66px;
+    border: 1px solid black;
+    height: 16px;
+    font-size: 14px;
+}
+.text-3{
+    width: 45px;
+    border: 1px solid black;
+    height: 16px;
+    font-size: 14px;
+}
+.text-4{
+    width: 54px;
+    border: 1px solid black;
+    height: 16px;
+    font-size: 14px;
+}
+.text-5{
+    width: 66px;
+    border: 1px solid black;
+    height: 16px;
+    font-size: 14px;
+}
+.text-6{
+    width: 102px;
+    border: 1px solid black;
+    height: 16px;
+    font-size: 14px;
+}
+.text-7{
+    width: 55px;
+    border: 1px solid black;
+    height: 16px;
+    font-size: 14px;
+}
+.text{
+    border: none;
+    font-size: 13px;
+}
+
+
+
+.article-text-pic-container{
+    width: 100%;
+    border: 1px solid black;
+    height: 153px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-text{
+    width: 68%;
+    /* border: 1px solid black; */
+    height: 133px;
+}
+.article-text-img{
+    width: 27%;
+    /* border: 1px solid black; */
+    height: 131px;
+    background-image: url('https://miro.medium.com/v2/da:true/resize:fill:180:121/0*OIzdaFOQ_pzhVv_N');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.top-header{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 19px;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    margin-bottom: 5px;
+    
+}
+.img{
+    width: 19px;
+    /* border: 1px solid black; */
+    height: 17px;
+    display: inline-block;
+    border-radius: 100px;
+    margin-right: 7px;
+}
+.img-side-text{
+    width: 98px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    font-size: 12px;
+}
+
+.bold-text-header{
+    width:100%;
+    /* border: 1px solid black; */
+    height: 44px;
+    font-size: 18px;
+}
+.text-article{
+    width:100%;
+    /* border: 1px solid black; */
+    height: 44px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    color: #6B6B6B;
+}
+.notify{
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 14px;
+    color: #6B6B6B;
+    position: relative;
+}
+.notify span{
+    border: 1px solid #F2F2F2;;
+    color: #6B6B6B;
+    background-color: #F2F2F2;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    width: 75px;
+    height: 17px;
+}
+.save-icon{
+    width: 17px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    left: 260px;
+    bottom: -13px;
+
+}
+
+
+.top-header{
+    position: relative;
+}
+.hidden-text{
+    position: absolute;
+    width: 212px;
+    /* border: 1px solid black; */
+    height: 156px;
+    left:115px;
+    bottom: -84px;
+    background-color: white;
+    z-index: 1;
+    display: none;
+}
+
+.img-side-text:hover .hidden-text{
+    cursor: pointer;
+    display: block;
+}
+
+.article-text-img-2{
+    width: 27%;
+    /* border: 1px solid black; */
+    height: 131px;
+    background-image: url('https://miro.medium.com/v2/resize:fill:180:121/1*L6AhpVRVVxaqMid-bIJd1Q.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.article-text-img-3{
+    width: 27%;
+    /* border: 1px solid black; */
+    height: 131px;
+    background-image: url('https://miro.medium.com/v2/resize:fill:180:121/1*6_8hxNIrLW8WBjDIhz5BtA.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
