@@ -1,0 +1,42 @@
+.user-details{
+    width:85%;
+    /* border: 1px solid red;section me height nahi diya */
+    margin: auto;
+}
+.user-details-table{
+    width: 100%;
+    /* border: 1px solid blueviolet; */
+    height: 200px;
+
+
+}
+/* .user-details-row{ //inspect karne se border nahi araha hai....
+    width: 100%;
+    border: 1px solid black;
+    height: 100px;
+
+} */
+
+/* YE 2 columns klenge 45% width and height 200px of the table wich is 100%... */
+.user-detail-info{
+    /* border: 1px solid black; */
+    width:45%;                    
+    height: 200px;
+}
+.user-details-field{ /*This is for the single text*/
+    /* border: 1px solid green;  */
+    font-size: 20px; 
+    margin:10px 0; 
+}
+.user-details-input{ /*This is of single inputs*/
+    font-size: 20px; 
+    margin:3px 0; 
+}
+.user-field-text{
+    float: left;
+    width: 20%;
+}
+.user-field-input{
+    float: right;
+    width:79%;
+}
