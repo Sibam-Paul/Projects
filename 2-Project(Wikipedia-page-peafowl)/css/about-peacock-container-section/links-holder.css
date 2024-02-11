@@ -1,0 +1,52 @@
+.content{
+    height: 20px;
+    /* width: 96%;
+    border-bottom: 1px solid black;
+     */
+}
+.separation-line{
+    width: 96%;
+    border-bottom: 1px solid #ccc;
+    margin: 3px 0px;
+}
+
+.first-section{
+    /* border: 1px solid black; */
+    margin-left: 18px;
+}
+
+.second-section{
+    /* border: 1px solid black; */
+    margin-left: 40px;
+}
+
+.forth-section{
+    /* border: 1px solid black; */
+    margin-left: 40px;
+}
+
+.fifth-section{
+    /* border: 1px solid black; */
+    margin-left: 45px;
+}
+
+.link,
+.top,
+.Description{
+    display: block;
+}
+
+.top,
+.content,
+.first-section,
+.link,
+.Description{
+    padding: 5px;
+}
+
+
+.first-section,
+.link,
+.Description{
+    font-size: 14px;
+}

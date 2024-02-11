@@ -1,0 +1,10 @@
+.talk-image{
+    width: 75%;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(./talk.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}

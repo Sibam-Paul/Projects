@@ -1,0 +1,563 @@
+.about-peacock-container-section{
+    min-height: 400px;
+    width: 95%;
+    /* border: 1px solid black; */
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.links-holder{
+    height: 579px;
+    width: 19%;
+    margin-top: 54px;
+    /* border: 1px solid black; */
+    position: sticky; /*Doubt*/
+    top: 8%;
+    overflow-y: scroll;
+}
+.links-text-holder{
+    min-height: 400px;
+    width: 79%;
+    border: 1px solid black;
+}
+
+
+
+
+
+/* Peafowl heading CSS------------------------------------------------------------- */
+
+.peafowl-heading{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: flex-end;
+}
+.text{
+    height: 31px;
+    width: 97%;
+    /* border-bottom: 1px solid rebeccapurple; */
+    font-size: 30px;
+    
+}
+.l61-languages{
+    height: 17px;
+    width: 11%;
+    /* border: 1px solid rebeccapurple; */
+    font-weight: 550;
+    font-size: 14px;
+}
+/* Peafowl heading CSS------------------------------------------------------------- */
+
+
+
+
+/* Below Below bar navbar---------------------------------------------------- */
+.below-bar{
+    height: 33px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.l2inks{
+    width: 9%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name-link2{
+    font-size: 15px;
+}
+
+
+.l4inks{
+    width: 22%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+.name-link4{
+    margin-right: 7px;
+    font-size: 15px;
+}
+/* Below Below bar navbar --------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/* Quotes starts here................................................................. */
+
+.free-encyclopedia{
+    height: 33px;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 6px 0px;
+}
+.peacock-streamingservice{
+    height: 33px;
+    width: 100%;
+    border: 1px solid black;
+    
+    
+}
+.textquote{
+    height: 14px;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 14px;
+    margin-left: 32px;
+    font-style: italic;
+    
+}
+
+
+/* Quotes ends here................................................................. */
+
+
+
+
+
+
+.image-text-conatiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*text container box*/
+.running-text-container{
+    min-height: 400px;
+    border: 1px solid red;
+    width: 72%;
+}
+.textz{
+    font-size: 15px;
+    margin-bottom: 13px ;
+    line-height: 150%;
+    border: 1px solid rebeccapurple;
+}
+.texty{
+    font-size: 15px;
+    /* margin-left: 50px; */
+    margin-bottom: 13px ;
+    line-height: 150%;
+    border: 1px solid rebeccapurple;
+}
+
+.heading-textZ{
+    margin: 20px 0px ;
+    font-size: 1.1em;
+    border-bottom: 1px solid black;
+    font-weight: 600px;
+}
+.heading-textw{
+    margin: 20px 0px ;
+    font-size: 0.9em;
+    border-bottom: 1px solid black;
+    font-weight: 600px;
+}
+.heading-textk{
+    margin-top: 16px;
+    font-size: 1.1em;
+    border-bottom: 1px solid #726f6f;
+    width: 92%;
+}
+
+.after-text{
+    font-size: small;
+    font-weight: lighter;
+} 
+.italic-text{
+    font-size: 14px;
+    position: relative;
+    top: -19px;
+    left: 23px;
+    font-style: italic;
+    padding: 5px;
+}
+
+.pea-img{
+    border: 1px solid fuchsia;
+    height: 291px;
+    width: 42%;
+    float: left;
+}
+.pea-seen-from-behind{
+    width: 86%;
+    height: 239px;
+    display: block;
+    border: 1px solid black;
+    margin-top:20px ;
+    margin-right:20px ;
+    margin-bottom:20px ;
+}
+.pea-seen-from-behind-pic{
+    width: 96%;
+    height: 189px;
+    display: block;
+    border: 1px solid black;
+    margin: 3px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Peahen_in_front_of_displaying_peacock.jpg/800px-Peahen_in_front_of_displaying_peacock.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.text2{
+    font-size: 12px;
+    line-height: 1.2em;
+}
+
+.full-text{
+    width: 100%;
+    position: relative;
+}
+.div-peacocksitting{
+    border: 1px solid forestgreen;
+    height: 79px;
+    width: 21%;
+    float: left;
+    margin-right: 20px;
+
+
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+/* Second-runnning-text-conatiner-2 starts */
+.running-text-container-2{
+    min-height: 400px;
+    width: 100%;
+    margin: 10px 0px;
+}
+.media{
+    width: 277px;
+    height: 74px;
+    border: 1px solid black;
+    float: right;
+}
+.textu{
+    font-size: 15px;
+    margin-top: 7px;
+    margin-bottom: 13px ;
+    line-height: 150%;
+    border: 1px solid rebeccapurple;
+}
+
+/* Second-runnning-text-conatiner-2 ends */
+
+
+
+/*Image container box*/
+.running-image-container{
+    min-height: 400px;
+    border: 1px solid green;
+    width: 25%;
+}
+.section-table{
+    height: 659px;
+    border: 1px solid red;
+    width: 88%;
+    margin-left: 28px;
+    margin-bottom: 100px;
+}
+.table{
+    border: 1px solid black;
+    width: 94%;
+    margin: 4px auto;
+}
+.special-alphabets{
+    font-size: small;
+}
+.Late-text{
+    font-size: x-small;
+}
+
+
+.imagex{
+    width: 93%;
+    height: 130px;
+    border: 1px solid gold;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Peacock_Plumage.jpg/220px-Peacock_Plumage.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:auto;
+}
+
+.scientific-classification-text{
+    border: 1px solid black;
+    width: 82%;
+    margin: 4px auto;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 22px;
+    height: 18px;
+}
+
+.scientific-classification-text-items{
+    border: 1px solid firebrick;
+    width: 80%;
+    margin-left: 10px;
+}
+.left,
+.right{
+    font-size: 15px;
+    margin: 2px;
+    line-height: 158%;
+}
+.left{
+    width: 20%;
+    float: left;
+}
+.right{
+    width: 50%;
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+
+
+.GRoups-included{
+    margin-left: 36px;
+    font-size:15px ;
+    font-style: italic;
+}
+
+.Cladisticvally{
+    border: 1px solid fuchsia;
+    width: 90%;
+    margin: 4px auto;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+
+}
+
+
+
+
+.peacock-spreading-his-tail-pic{
+    width: 25%;
+    border: 1px solid black;
+    height: 170px;
+    width: 85%;
+    margin-left: 36px;
+    margin-bottom: 100px;
+
+}
+.image{
+    height: 69%;
+    border: 1px solid black;
+    width: 96%;
+    display: block;
+    margin: 3px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The_Magnificent_Peafowl.jpg/220px-The_Magnificent_Peafowl.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.image::after{
+    content: ' ';
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Magnify-clip.svg/120px-Magnify-clip.svg.png');
+    height: 11px;
+    width: 10px;
+    display: block;
+}
+
+.captions{
+    height: 22%;
+    border: 1px solid black;
+    width: 96%;
+    display: block;
+    margin: auto;
+
+}
+
+
+.second-pic,
+.peafowl-eggs-pic,
+.peachick-pic,
+.head-of-adult-peacock,
+.female-peafowl-peahen
+{
+    width: 25%;
+    border: 1px solid black;
+    height: 400px;
+    width: 85%;
+    margin-left: 36px;
+    margin-bottom: 20px;
+    align-items: end;
+}
+
+
+.second-pic{
+    width: 25%;
+    border: 1px solid black;
+    height: 275px;
+    width: 85%;
+    margin-left: 36px;
+    margin-bottom: 100px;
+    align-items: end;
+}
+.second-pic-image{
+    width: 96%;
+    border: 1px solid black;
+    height: 258px;
+    display: block;
+    margin: 3px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Female_Pefowl_001.jpg/800px-Female_Pefowl_001.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.peafowl-eggs-pic{
+    width: 25%;
+    border: 1px solid black;
+    height: 283px;
+    width: 85%;
+    margin-left: 36px;
+    margin-bottom: 40px;
+    align-items: end;
+}
+.egg-pic{
+    width: 96%;
+    border: 1px solid black;
+    height: 252px;
+    display: block;
+    margin: 3px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Eggs_of_Peafowl_at_Aravath_Kasaragod.jpg/800px-Eggs_of_Peafowl_at_Aravath_Kasaragod.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 3px;
+}
+.peachick-pic{
+    width: 25%;
+    border: 1px solid black;
+    height: 177px;
+    width: 85%;
+    margin-left: 36px;
+    margin-bottom: 40px;
+    align-items: end;
+}
+.peachick-picture{
+    width: 96%;
+    border: 1px solid black;
+    height: 147px;
+    display: block;
+    margin: 3px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Baby_Peacock_%2818131813108%29.jpg/800px-Baby_Peacock_%2818131813108%29.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 3px;
+}
+
+.head-of-adult-peacock{
+    width: 25%;
+    border: 1px solid black;
+    height: 159px;
+    width: 85%;
+    margin-left: 36px;
+    margin-bottom: 40px;
+    align-items: end;
+}
+.head-of-adult-peacock-img{
+    width: 96%;
+    border: 1px solid black;
+    height: 130px;
+    display: block;
+    margin: 3px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Peacock-JS.jpg/1024px-Peacock-JS.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 3px; 
+}
+.video-analysis,
+.female-peafowl-peahen{
+    width: 25%;
+    border: 1px solid black;
+    height: 205px;
+    width: 85%;
+    margin-left: 36px;
+    margin-bottom: 40px;
+    align-items: end;
+}
+
+.female-peafowl-peahen-pic{
+    width: 96%;
+    border: 1px solid black;
+    height: 156px;
+    display: block;
+    margin: 3px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Peahen_at_the_zoo.jpg/800px-Peahen_at_the_zoo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 3px; 
+}
+
+.peacock-from-behind{
+    width: 25%;
+    border: 1px solid black;
+    height: 338px;
+    width: 85%;
+    margin-left: 36px;
+    margin-bottom: 100px;
+    align-items: end;
+}
+.peacock-from-behind-pic{
+    width: 96%;
+    border: 1px solid black;
+    height: 310px;
+    display: block;
+    margin: 3px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Peacock_by_Nihal_jabin.jpg/220px-Peacock_by_Nihal_jabin.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 3px;
+}
+
+.peacock-in-flight{
+    width: 25%;
+    border: 1px solid black;
+    height: 163px;
+    width: 85%;
+    margin-left: 36px;
+    margin-bottom: 100px;
+    align-items: end;
+}
+
+.peacock-in-flight-pic{
+    width: 96%;
+    border: 1px solid black;
+    height: 116px;
+    display: block;
+    margin: 3px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Peacock_Flying.jpg/220px-Peacock_Flying.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 3px;
+}
+.text1{
+    font-size: 12px;
+}
+
+.Eyespot-on-a-peacock{
+    width: 75%;
+    height: 282px;
+    border: 1px solid black;
+    margin-left: 61px;
+   
+}
+.Eyespot-on-a-peacock-pic{
+    width: 96%;
+    border: 1px solid black;
+    height: 243px;
+    display: block;
+    margin: 3px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Peacock_Feather_Close_Up.JPG/320px-Peacock_Feather_Close_Up.JPG');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
