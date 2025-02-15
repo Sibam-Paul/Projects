@@ -1,0 +1,501 @@
+sibam@Sibam:~/gsoc$ mkdir core/build && cd core/build
+cmake ..
+cmake --build . --target install
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Target Operative System: Linux
+-- Target OS Family: unix
+-- Linux x86_64 64bit detected
+CMake Warning at CMakeLists.txt:162 (message):
+  Linting disabled: clang-format executable not found
+
+
+-- Lib version
+-- Performing Test PIC_C_FLAG
+-- Performing Test PIC_C_FLAG - Success
+-- Performing Test STACK_PROTECTOR_STRONG_C_FLAG
+-- Performing Test STACK_PROTECTOR_STRONG_C_FLAG - Success
+-- Performing Test FORTIFY_SOURCE_C_FLAG
+-- Performing Test FORTIFY_SOURCE_C_FLAG - Success
+-- Performing Test PIC_CXX_FLAG
+-- Performing Test PIC_CXX_FLAG - Success
+-- Performing Test STACK_PROTECTOR_STRONG_CXX_FLAG
+-- Performing Test STACK_PROTECTOR_STRONG_CXX_FLAG - Success
+-- Performing Test FORTIFY_SOURCE_CXX_FLAG
+-- Performing Test FORTIFY_SOURCE_CXX_FLAG - Success
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Lib preprocessor
+-- Lib environment
+-- Lib format
+-- Lib log
+-- Lib memory
+-- Lib portability
+-- Lib threading
+-- Lib adt
+-- Lib filesystem
+-- Lib dynlink
+-- Lib plugin
+-- Lib detour
+-- Lib reflect
+-- Lib serial
+-- Lib configuration
+-- Lib loader
+-- Lib metacall
+-- Plugin ext_loader
+-- Plugin mock_loader
+-- Serial metacall_serial
+-- Installing RapidJSON vab1842a2dae061284c0a62dca1cc6d5e7e37e346
+-- Serial rapid_json_serial
+-- Found Git: /usr/bin/git (found version "2.43.0")
+-- Detour funchook_detour
+-- Extension plugin_extension
+CMake Deprecation Warning at build/_deps/backwardcpp-src/CMakeLists.txt:23 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Could NOT find libdw (missing: LIBDW_LIBRARY LIBDW_INCLUDE_DIR)
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR)
+-- Could NOT find libdwarf (missing: LIBDWARF_LIBRARY LIBDWARF_INCLUDE_DIR LIBELF_LIBRARY LIBELF_INCLUDE_DIR)
+-- Found Backward: /home/sibam/gsoc/core/build/_deps/backwardcpp-src
+-- Could NOT find libdw (missing: LIBDW_LIBRARY LIBDW_INCLUDE_DIR)
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR)
+-- Could NOT find libdwarf (missing: LIBDWARF_LIBRARY LIBDWARF_INCLUDE_DIR LIBELF_LIBRARY LIBELF_INCLUDE_DIR)
+-- Could NOT find libdw (missing: LIBDW_LIBRARY LIBDW_INCLUDE_DIR)
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR)
+-- Could NOT find libdwarf (missing: LIBDWARF_LIBRARY LIBDWARF_INCLUDE_DIR LIBELF_LIBRARY LIBELF_INCLUDE_DIR)
+-- Plugin backtrace_plugin
+-- Script sum_extension
+-- Could NOT find GTest (missing: GTEST_LIBRARY GTEST_INCLUDE_DIR GTEST_MAIN_LIBRARY) (Required is at least version "1.11.0")
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Install Google Test v1.11.0
+-- Test preprocessor-test
+-- Test environment-test
+-- Test log-test
+-- Test log-custom-test
+-- Test adt-set-test
+-- Test adt-trie-test
+-- Test adt-vector-test
+-- Test adt-map-test
+-- Test reflect-value-cast-test
+-- Test reflect-function-test
+-- Test reflect-object-class-test
+-- Test reflect-scope-test
+-- Test reflect-metadata-test
+-- Test dynlink-test
+-- Test detour-test
+-- Test serial-test
+-- Test configuration-test
+-- Test portability-path-test
+-- Test metacall-logs-test
+-- Test metacall-load-memory-test
+-- Test metacall-load-memory-empty-test
+-- Test metacall-load-configuration-test
+-- Test metacall-handle-export-test
+-- Test metacall-test
+-- Test metacall-distributable-test
+-- Test metacall-ducktype-test
+-- Test metacall-inspect-test
+-- Test metacall-configuration-default-test
+-- Test metacall-map-test
+-- Test metacall-initialize-test
+-- Test metacall-initialize-ex-test
+-- Test metacall-reinitialize-test
+-- Test metacall-initialize-destroy-multiple-test
+-- Test metacall-invalid-loader-test
+-- Test metacall-fork-test
+-- Test metacall-version-test
+-- Test metacall-dynlink-path-test
+-- Test metacall-library-path-without-env-vars-test
+-- Test metacall-ext-test
+-- Test metacall-backtrace-plugin-test
+CMake Warning at source/cli/CMakeLists.txt:9 (message):
+  The Extension and NodeJS Loaders are a dependency of the CLI, in order to
+  compile the CLI, enable them with -DOPTION_BUILD_LOADERS_EXT=ON
+  -DOPTION_BUILD_LOADERS_NODE=ON
+
+
+-- Example metacalllog
+-- Installing git hooks at /home/sibam/gsoc/core
+-- Configuring done (43.5s)
+-- Generating done (0.5s)
+-- Build files have been written to: /home/sibam/gsoc/core/build
+[  0%] Building C object source/version/CMakeFiles/version.dir/source/version.c.o
+[  1%] Linking CXX shared library ../../libversion.so
+[  1%] Built target version
+[  2%] Building C object source/preprocessor/CMakeFiles/preprocessor.dir/source/preprocessor.c.o
+[  2%] Linking CXX shared library ../../libpreprocessor.so
+[  2%] Built target preprocessor
+[  2%] Building C object source/environment/CMakeFiles/environment.dir/source/environment.c.o
+[  3%] Building C object source/environment/CMakeFiles/environment.dir/source/environment_variable.c.o
+[  3%] Building C object source/environment/CMakeFiles/environment.dir/source/environment_variable_path.c.o
+[  3%] Linking CXX shared library ../../libenvironment.so
+[  3%] Built target environment
+[  3%] Building C object source/format/CMakeFiles/format.dir/source/format.c.o
+[  3%] Linking CXX shared library ../../libformat.so
+[  3%] Built target format
+gmake[2]: Warning: File 'source/threading/CMakeFiles/threading.dir/flags.make' has modification time 42 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/threading/CMakeFiles/threading.dir/flags.make' has modification time 42 s in the future
+[  3%] Building C object source/threading/CMakeFiles/threading.dir/source/threading.c.o
+[  4%] Building C object source/threading/CMakeFiles/threading.dir/source/threading_thread_id.c.o
+[  4%] Building C object source/threading/CMakeFiles/threading.dir/source/threading_mutex_pthread.c.o
+[  4%] Linking CXX shared library ../../libthreading.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[  4%] Built target threading
+gmake[2]: Warning: File 'source/log/CMakeFiles/log.dir/flags.make' has modification time 42 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/log/CMakeFiles/log.dir/flags.make' has modification time 42 s in the future
+[  4%] Building C object source/log/CMakeFiles/log.dir/source/log.c.o
+[  5%] Building C object source/log/CMakeFiles/log.dir/source/log_valid_size.c.o
+[  5%] Building C object source/log/CMakeFiles/log.dir/source/log_map.c.o
+[  5%] Building C object source/log/CMakeFiles/log.dir/source/log_level.c.o
+[  5%] Building C object source/log/CMakeFiles/log.dir/source/log_record.c.o
+[  6%] Building C object source/log/CMakeFiles/log.dir/source/log_handle.c.o
+[  6%] Building C object source/log/CMakeFiles/log.dir/source/log_policy.c.o
+[  6%] Building C object source/log/CMakeFiles/log.dir/source/log_aspect.c.o
+[  6%] Building C object source/log/CMakeFiles/log.dir/source/log_impl.c.o
+[  7%] Building C object source/log/CMakeFiles/log.dir/source/log_singleton.c.o
+[  7%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_format.c.o
+[  7%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_format_binary.c.o
+[  7%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_format_custom.c.o
+[  8%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_format_text.c.o
+[  8%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_schedule.c.o
+[  8%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_schedule_async.c.o
+[  8%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_schedule_sync.c.o
+[  8%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_storage.c.o
+[  9%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_storage_batch.c.o
+[  9%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_storage_sequential.c.o
+[  9%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_stream.c.o
+[  9%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_stream_custom.c.o
+[ 10%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_stream_file.c.o
+[ 10%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_stream_nginx.c.o
+[ 10%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_stream_socket.c.o
+[ 10%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_stream_stdio.c.o
+[ 11%] Building C object source/log/CMakeFiles/log.dir/source/log_policy_stream_syslog.c.o
+[ 11%] Building C object source/log/CMakeFiles/log.dir/source/log_aspect_format.c.o
+[ 11%] Building C object source/log/CMakeFiles/log.dir/source/log_aspect_schedule.c.o
+[ 11%] Building C object source/log/CMakeFiles/log.dir/source/log_aspect_stream.c.o
+[ 12%] Building C object source/log/CMakeFiles/log.dir/source/log_aspect_storage.c.o
+[ 12%] Linking CXX shared library ../../liblog.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 12%] Built target log
+gmake[2]: Warning: File 'source/memory/CMakeFiles/memory.dir/flags.make' has modification time 39 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/memory/CMakeFiles/memory.dir/flags.make' has modification time 39 s in the future
+[ 13%] Building C object source/memory/CMakeFiles/memory.dir/source/memory.c.o
+[ 13%] Building C object source/memory/CMakeFiles/memory.dir/source/memory_allocator.c.o
+[ 13%] Building C object source/memory/CMakeFiles/memory.dir/source/memory_allocator_std.c.o
+[ 13%] Building C object source/memory/CMakeFiles/memory.dir/source/memory_allocator_std_impl.c.o
+[ 14%] Building C object source/memory/CMakeFiles/memory.dir/source/memory_allocator_nginx.c.o
+[ 14%] Building C object source/memory/CMakeFiles/memory.dir/source/memory_allocator_nginx_impl.c.o
+[ 14%] Linking CXX shared library ../../libmemory.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 14%] Built target memory
+gmake[2]: Warning: File 'source/portability/CMakeFiles/portability.dir/flags.make' has modification time 38 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/portability/CMakeFiles/portability.dir/flags.make' has modification time 38 s in the future
+[ 15%] Building C object source/portability/CMakeFiles/portability.dir/source/portability.c.o
+[ 15%] Building C object source/portability/CMakeFiles/portability.dir/source/portability_path.c.o
+[ 15%] Building C object source/portability/CMakeFiles/portability.dir/source/portability_executable_path.c.o
+[ 15%] Building C object source/portability/CMakeFiles/portability.dir/source/portability_library_path.c.o
+[ 16%] Linking CXX shared library ../../libportability.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 16%] Built target portability
+[ 16%] Building C object source/adt/CMakeFiles/adt.dir/source/adt.c.o
+[ 16%] Building C object source/adt/CMakeFiles/adt.dir/source/adt_comparable.c.o
+[ 16%] Building C object source/adt/CMakeFiles/adt.dir/source/adt_hash.c.o
+[ 16%] Building C object source/adt/CMakeFiles/adt.dir/source/adt_set.c.o
+[ 17%] Building C object source/adt/CMakeFiles/adt.dir/source/adt_map.c.o
+[ 17%] Building C object source/adt/CMakeFiles/adt.dir/source/adt_bucket.c.o
+[ 17%] Building C object source/adt/CMakeFiles/adt.dir/source/adt_trie.c.o
+[ 17%] Building C object source/adt/CMakeFiles/adt.dir/source/adt_vector.c.o
+[ 18%] Linking CXX shared library ../../libadt.so
+[ 18%] Built target adt
+gmake[2]: Warning: File 'source/filesystem/CMakeFiles/filesystem.dir/flags.make' has modification time 36 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/filesystem/CMakeFiles/filesystem.dir/flags.make' has modification time 36 s in the future
+[ 18%] Building C object source/filesystem/CMakeFiles/filesystem.dir/source/filesystem.c.o
+[ 18%] Building C object source/filesystem/CMakeFiles/filesystem.dir/source/filesystem_file_descriptor.c.o
+[ 18%] Building C object source/filesystem/CMakeFiles/filesystem.dir/source/filesystem_directory_descriptor.c.o
+[ 19%] Linking CXX shared library ../../libfilesystem.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 19%] Built target filesystem
+gmake[2]: Warning: File 'source/dynlink/CMakeFiles/dynlink.dir/flags.make' has modification time 36 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/dynlink/CMakeFiles/dynlink.dir/flags.make' has modification time 36 s in the future
+[ 19%] Building C object source/dynlink/CMakeFiles/dynlink.dir/source/dynlink.c.o
+[ 19%] Building C object source/dynlink/CMakeFiles/dynlink.dir/source/dynlink_impl.c.o
+[ 20%] Building C object source/dynlink/CMakeFiles/dynlink.dir/source/dynlink_impl_unix.c.o
+[ 20%] Building C object source/dynlink/CMakeFiles/dynlink.dir/source/dynlink_interface.c.o
+[ 20%] Building C object source/dynlink/CMakeFiles/dynlink.dir/source/dynlink_symbol.c.o
+[ 20%] Linking CXX shared library ../../libdynlink.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 20%] Built target dynlink
+gmake[2]: Warning: File 'source/plugin/CMakeFiles/plugin.dir/flags.make' has modification time 35 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/plugin/CMakeFiles/plugin.dir/flags.make' has modification time 35 s in the future
+[ 21%] Building C object source/plugin/CMakeFiles/plugin.dir/source/plugin.c.o
+[ 21%] Building C object source/plugin/CMakeFiles/plugin.dir/source/plugin_descriptor.c.o
+[ 21%] Building C object source/plugin/CMakeFiles/plugin.dir/source/plugin_impl.c.o
+[ 21%] Building C object source/plugin/CMakeFiles/plugin.dir/source/plugin_loader.c.o
+[ 22%] Building C object source/plugin/CMakeFiles/plugin.dir/source/plugin_manager.c.o
+[ 22%] Linking CXX shared library ../../libplugin.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 22%] Built target plugin
+gmake[2]: Warning: File 'source/detour/CMakeFiles/detour.dir/flags.make' has modification time 34 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/detour/CMakeFiles/detour.dir/flags.make' has modification time 34 s in the future
+[ 22%] Building C object source/detour/CMakeFiles/detour.dir/source/detour.c.o
+[ 22%] Linking CXX shared library ../../libdetour.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 22%] Built target detour
+gmake[2]: Warning: File 'source/reflect/CMakeFiles/reflect.dir/flags.make' has modification time 34 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/reflect/CMakeFiles/reflect.dir/flags.make' has modification time 34 s in the future
+[ 23%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect.c.o
+[ 23%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_type.c.o
+[ 23%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_type_id.c.o
+[ 23%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_signature.c.o
+[ 24%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_function.c.o
+[ 24%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_attribute.c.o
+[ 24%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_constructor.c.o
+[ 24%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_memory_tracker.c.o
+[ 25%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_method.c.o
+[ 25%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_class_visibility.c.o
+[ 25%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_class.c.o
+[ 25%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_object.c.o
+[ 26%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_future.c.o
+[ 26%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_exception.c.o
+[ 26%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_throwable.c.o
+[ 26%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_scope.c.o
+[ 27%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_context.c.o
+[ 27%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_value.c.o
+[ 27%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_value_type.c.o
+[ 27%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_value_type_id_size.c.o
+[ 28%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_value_type_promotion.c.o
+[ 28%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_value_type_demotion.c.o
+[ 28%] Building C object source/reflect/CMakeFiles/reflect.dir/source/reflect_value_type_cast.c.o
+[ 28%] Linking CXX shared library ../../libreflect.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 28%] Built target reflect
+gmake[2]: Warning: File 'source/serial/CMakeFiles/serial.dir/flags.make' has modification time 31 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/serial/CMakeFiles/serial.dir/flags.make' has modification time 31 s in the future
+[ 29%] Building C object source/serial/CMakeFiles/serial.dir/source/serial.c.o
+[ 29%] Linking CXX shared library ../../libserial.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 29%] Built target serial
+gmake[2]: Warning: File 'source/configuration/CMakeFiles/configuration.dir/flags.make' has modification time 31 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/configuration/CMakeFiles/configuration.dir/flags.make' has modification time 31 s in the future
+[ 29%] Building C object source/configuration/CMakeFiles/configuration.dir/source/configuration.c.o
+[ 29%] Building C object source/configuration/CMakeFiles/configuration.dir/source/configuration_singleton.c.o
+[ 30%] Building C object source/configuration/CMakeFiles/configuration.dir/source/configuration_object.c.o
+[ 30%] Building C object source/configuration/CMakeFiles/configuration.dir/source/configuration_impl.c.o
+[ 30%] Linking CXX shared library ../../libconfiguration.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 30%] Built target configuration
+gmake[2]: Warning: File 'source/loader/CMakeFiles/loader.dir/flags.make' has modification time 30 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/loader/CMakeFiles/loader.dir/flags.make' has modification time 30 s in the future
+[ 30%] Building C object source/loader/CMakeFiles/loader.dir/source/loader.c.o
+[ 30%] Building C object source/loader/CMakeFiles/loader.dir/source/loader_impl.c.o
+[ 31%] Building C object source/loader/CMakeFiles/loader.dir/source/loader_host.c.o
+[ 31%] Building C object source/loader/CMakeFiles/loader.dir/source/loader_manager_impl.c.o
+[ 31%] Linking CXX shared library ../../libloader.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 31%] Built target loader
+gmake[2]: Warning: File 'source/metacall/CMakeFiles/metacall.dir/flags.make' has modification time 29 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/metacall/CMakeFiles/metacall.dir/flags.make' has modification time 29 s in the future
+[ 31%] Building C object source/metacall/CMakeFiles/metacall.dir/__/version/source/version.c.o
+[ 32%] Building C object source/metacall/CMakeFiles/metacall.dir/__/preprocessor/source/preprocessor.c.o
+[ 32%] Building C object source/metacall/CMakeFiles/metacall.dir/__/environment/source/environment.c.o
+[ 32%] Building C object source/metacall/CMakeFiles/metacall.dir/__/environment/source/environment_variable.c.o
+[ 32%] Building C object source/metacall/CMakeFiles/metacall.dir/__/environment/source/environment_variable_path.c.o
+[ 32%] Building C object source/metacall/CMakeFiles/metacall.dir/__/format/source/format.c.o
+[ 33%] Building C object source/metacall/CMakeFiles/metacall.dir/__/threading/source/threading.c.o
+[ 33%] Building C object source/metacall/CMakeFiles/metacall.dir/__/threading/source/threading_thread_id.c.o
+[ 33%] Building C object source/metacall/CMakeFiles/metacall.dir/__/threading/source/threading_mutex_pthread.c.o
+[ 33%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log.c.o
+[ 34%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_valid_size.c.o
+[ 34%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_map.c.o
+[ 34%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_level.c.o
+[ 34%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_record.c.o
+[ 35%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_handle.c.o
+[ 35%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy.c.o
+[ 35%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_aspect.c.o
+[ 35%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_impl.c.o
+[ 36%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_singleton.c.o
+[ 36%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_format.c.o
+[ 36%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_format_binary.c.o
+[ 36%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_format_custom.c.o
+[ 37%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_format_text.c.o
+[ 37%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_schedule.c.o
+[ 37%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_schedule_async.c.o
+[ 37%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_schedule_sync.c.o
+[ 38%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_storage.c.o
+[ 38%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_storage_batch.c.o
+[ 38%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_storage_sequential.c.o
+[ 38%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_stream.c.o
+[ 39%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_stream_custom.c.o
+[ 39%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_stream_file.c.o
+[ 39%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_stream_nginx.c.o
+[ 39%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_stream_socket.c.o
+[ 40%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_stream_stdio.c.o
+[ 40%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_policy_stream_syslog.c.o
+[ 40%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_aspect_format.c.o
+[ 40%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_aspect_schedule.c.o
+[ 40%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_aspect_stream.c.o
+[ 41%] Building C object source/metacall/CMakeFiles/metacall.dir/__/log/source/log_aspect_storage.c.o
+[ 41%] Building C object source/metacall/CMakeFiles/metacall.dir/__/memory/source/memory.c.o
+[ 41%] Building C object source/metacall/CMakeFiles/metacall.dir/__/memory/source/memory_allocator.c.o
+[ 41%] Building C object source/metacall/CMakeFiles/metacall.dir/__/memory/source/memory_allocator_std.c.o
+[ 42%] Building C object source/metacall/CMakeFiles/metacall.dir/__/memory/source/memory_allocator_std_impl.c.o
+[ 42%] Building C object source/metacall/CMakeFiles/metacall.dir/__/memory/source/memory_allocator_nginx.c.o
+[ 42%] Building C object source/metacall/CMakeFiles/metacall.dir/__/memory/source/memory_allocator_nginx_impl.c.o
+[ 42%] Building C object source/metacall/CMakeFiles/metacall.dir/__/portability/source/portability.c.o
+[ 43%] Building C object source/metacall/CMakeFiles/metacall.dir/__/portability/source/portability_path.c.o
+[ 43%] Building C object source/metacall/CMakeFiles/metacall.dir/__/portability/source/portability_executable_path.c.o
+[ 43%] Building C object source/metacall/CMakeFiles/metacall.dir/__/portability/source/portability_library_path.c.o
+[ 43%] Building C object source/metacall/CMakeFiles/metacall.dir/__/adt/source/adt.c.o
+[ 44%] Building C object source/metacall/CMakeFiles/metacall.dir/__/adt/source/adt_comparable.c.o
+[ 44%] Building C object source/metacall/CMakeFiles/metacall.dir/__/adt/source/adt_hash.c.o
+[ 44%] Building C object source/metacall/CMakeFiles/metacall.dir/__/adt/source/adt_set.c.o
+[ 44%] Building C object source/metacall/CMakeFiles/metacall.dir/__/adt/source/adt_map.c.o
+[ 45%] Building C object source/metacall/CMakeFiles/metacall.dir/__/adt/source/adt_bucket.c.o
+[ 45%] Building C object source/metacall/CMakeFiles/metacall.dir/__/adt/source/adt_trie.c.o
+[ 45%] Building C object source/metacall/CMakeFiles/metacall.dir/__/adt/source/adt_vector.c.o
+[ 45%] Building C object source/metacall/CMakeFiles/metacall.dir/__/filesystem/source/filesystem.c.o
+[ 46%] Building C object source/metacall/CMakeFiles/metacall.dir/__/filesystem/source/filesystem_file_descriptor.c.o
+[ 46%] Building C object source/metacall/CMakeFiles/metacall.dir/__/filesystem/source/filesystem_directory_descriptor.c.o
+[ 46%] Building C object source/metacall/CMakeFiles/metacall.dir/__/dynlink/source/dynlink.c.o
+[ 46%] Building C object source/metacall/CMakeFiles/metacall.dir/__/dynlink/source/dynlink_impl.c.o
+[ 47%] Building C object source/metacall/CMakeFiles/metacall.dir/__/dynlink/source/dynlink_impl_unix.c.o
+[ 47%] Building C object source/metacall/CMakeFiles/metacall.dir/__/dynlink/source/dynlink_interface.c.o
+[ 47%] Building C object source/metacall/CMakeFiles/metacall.dir/__/dynlink/source/dynlink_symbol.c.o
+[ 47%] Building C object source/metacall/CMakeFiles/metacall.dir/__/plugin/source/plugin.c.o
+[ 48%] Building C object source/metacall/CMakeFiles/metacall.dir/__/plugin/source/plugin_descriptor.c.o
+[ 48%] Building C object source/metacall/CMakeFiles/metacall.dir/__/plugin/source/plugin_impl.c.o
+[ 48%] Building C object source/metacall/CMakeFiles/metacall.dir/__/plugin/source/plugin_loader.c.o
+[ 48%] Building C object source/metacall/CMakeFiles/metacall.dir/__/plugin/source/plugin_manager.c.o
+[ 49%] Building C object source/metacall/CMakeFiles/metacall.dir/__/detour/source/detour.c.o
+[ 49%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect.c.o
+[ 49%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_type.c.o
+[ 49%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_type_id.c.o
+[ 49%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_signature.c.o
+[ 50%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_function.c.o
+[ 50%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_attribute.c.o
+[ 50%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_constructor.c.o
+[ 50%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_memory_tracker.c.o
+[ 51%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_method.c.o
+[ 51%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_class_visibility.c.o
+[ 51%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_class.c.o
+[ 51%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_object.c.o
+[ 52%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_future.c.o
+[ 52%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_exception.c.o
+[ 52%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_throwable.c.o
+[ 52%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_scope.c.o
+[ 53%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_context.c.o
+[ 53%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_value.c.o
+[ 53%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_value_type.c.o
+[ 53%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_value_type_id_size.c.o
+[ 54%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_value_type_promotion.c.o
+[ 54%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_value_type_demotion.c.o
+[ 54%] Building C object source/metacall/CMakeFiles/metacall.dir/__/reflect/source/reflect_value_type_cast.c.o
+[ 54%] Building C object source/metacall/CMakeFiles/metacall.dir/__/serial/source/serial.c.o
+[ 55%] Building C object source/metacall/CMakeFiles/metacall.dir/__/configuration/source/configuration.c.o
+[ 55%] Building C object source/metacall/CMakeFiles/metacall.dir/__/configuration/source/configuration_singleton.c.o
+[ 55%] Building C object source/metacall/CMakeFiles/metacall.dir/__/configuration/source/configuration_object.c.o
+[ 55%] Building C object source/metacall/CMakeFiles/metacall.dir/__/configuration/source/configuration_impl.c.o
+[ 56%] Building C object source/metacall/CMakeFiles/metacall.dir/__/loader/source/loader.c.o
+[ 56%] Building C object source/metacall/CMakeFiles/metacall.dir/__/loader/source/loader_impl.c.o
+[ 56%] Building C object source/metacall/CMakeFiles/metacall.dir/__/loader/source/loader_host.c.o
+[ 56%] Building C object source/metacall/CMakeFiles/metacall.dir/__/loader/source/loader_manager_impl.c.o
+[ 57%] Building C object source/metacall/CMakeFiles/metacall.dir/source/metacall.c.o
+[ 57%] Building C object source/metacall/CMakeFiles/metacall.dir/source/metacall_value.c.o
+[ 57%] Building C object source/metacall/CMakeFiles/metacall.dir/source/metacall_log.c.o
+[ 57%] Building C object source/metacall/CMakeFiles/metacall.dir/source/metacall_allocator.c.o
+[ 57%] Building C object source/metacall/CMakeFiles/metacall.dir/source/metacall_error.c.o
+[ 58%] Building C object source/metacall/CMakeFiles/metacall.dir/source/metacall_fork.c.o
+[ 58%] Linking CXX shared library ../../libmetacall.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 58%] Built target metacall
+gmake[2]: Warning: File 'source/loaders/ext_loader/CMakeFiles/ext_loader.dir/flags.make' has modification time 18 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/loaders/ext_loader/CMakeFiles/ext_loader.dir/flags.make' has modification time 18 s in the future
+[ 58%] Building C object source/loaders/ext_loader/CMakeFiles/ext_loader.dir/source/ext_loader.c.o
+[ 58%] Building CXX object source/loaders/ext_loader/CMakeFiles/ext_loader.dir/source/ext_loader_impl.cpp.o
+[ 59%] Linking CXX shared module ../../../libext_loader.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 59%] Built target ext_loader
+gmake[2]: Warning: File 'source/loaders/mock_loader/CMakeFiles/mock_loader.dir/flags.make' has modification time 15 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/loaders/mock_loader/CMakeFiles/mock_loader.dir/flags.make' has modification time 15 s in the future
+[ 59%] Building C object source/loaders/mock_loader/CMakeFiles/mock_loader.dir/source/mock_loader.c.o
+[ 59%] Building C object source/loaders/mock_loader/CMakeFiles/mock_loader.dir/source/mock_loader_impl.c.o
+[ 59%] Linking CXX shared module ../../../libmock_loader.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 59%] Built target mock_loader
+gmake[2]: Warning: File 'source/serials/metacall_serial/CMakeFiles/metacall_serial.dir/flags.make' has modification time 15 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/serials/metacall_serial/CMakeFiles/metacall_serial.dir/flags.make' has modification time 15 s in the future
+[ 59%] Building C object source/serials/metacall_serial/CMakeFiles/metacall_serial.dir/source/metacall_serial.c.o
+[ 59%] Building C object source/serials/metacall_serial/CMakeFiles/metacall_serial.dir/source/metacall_serial_impl.c.o
+[ 60%] Building C object source/serials/metacall_serial/CMakeFiles/metacall_serial.dir/source/metacall_serial_impl_serialize.c.o
+[ 60%] Building C object source/serials/metacall_serial/CMakeFiles/metacall_serial.dir/source/metacall_serial_impl_deserialize.c.o
+[ 60%] Linking CXX shared module ../../../libmetacall_serial.so
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 60%] Built target metacall_serial
+gmake[2]: Warning: File 'source/serials/rapid_json_serial/CMakeFiles/rapid-json-depends.dir/progress.make' has modification time 14 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'source/serials/rapid_json_serial/CMakeFiles/rapid-json-depends.dir/progress.make' has modification time 14 s in the future
+[ 60%] Creating directories for 'rapid-json-depends'
+[ 60%] Performing download step (git clone) for 'rapid-json-depends'
+Cloning into 'rapid-json-depends'...
+error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
+error: 4587 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+Cloning into 'rapid-json-depends'...
+error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
+error: 7083 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+Cloning into 'rapid-json-depends'...
+
+error: 5955 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+-- Had to git clone more than once: 3 times.
+CMake Error at /home/sibam/gsoc/core/build/source/serials/rapid_json_serial/rapid-json-depends-prefix/tmp/rapid-json-depends-gitclone.cmake:39 (message):
+  Failed to clone repository: 'https://github.com/Tencent/rapidjson.git'
+
+
+gmake[2]: *** [source/serials/rapid_json_serial/CMakeFiles/rapid-json-depends.dir/build.make:99: source/serials/rapid_json_serial/rapid-json-depends-prefix/src/rapid-json-depends-stamp/rapid-json-depends-download] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:4916: source/serials/rapid_json_serial/CMakeFiles/rapid-json-depends.dir/all] Error 2
+gmake: *** [Makefile:156: all] Error 2
